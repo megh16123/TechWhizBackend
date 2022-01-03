@@ -1,0 +1,26 @@
+{
+  "name": "techwhiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megh16123/TechWhizBackend.git"
+  },
+  "author": "Jadu n tillu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megh16123/TechWhizBackend/issues"
+  },
+  "homepage": "https://github.com/megh16123/TechWhizBackend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4"
+  }
+}
