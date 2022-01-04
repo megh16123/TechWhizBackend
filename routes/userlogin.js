@@ -71,7 +71,16 @@ router.post('/login',jsonParser,(req,res)=>{
  .catch(err=>{res.status(409).json({error:err})});
 });
 // Delete User
-router.delete('/delete/:userID',jsonParser,(req,res)=>{
+const func = (req,res,next)=>{
+    try{
+    const decoded = jwt.verify(req.body.token,process.env.THE_SECRET);
+    req.UserData = decoded;
+    next();
+    }catch (err){
+        res.status(409).json({error:err})
+    }
+}
+router.delete('/delete/:userID',jsonParser,func,(req,res)=>{
    UserModel.deleteOne({_id:req.params.userID}).exec().then(user=>{
        res.status(200).json({message:"Deleted Successfully"});
    }).catch(err=>{
