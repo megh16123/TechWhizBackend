@@ -14,6 +14,7 @@ router.get('/',(req,res)=>{
 })
 // Sign Up
 router.post('/register',jsonParser,(req,res)=>{
+  
  UserModel.find({email:req.body.email}).exec().then(usr=>{
      if(usr.length>=1){
          return res.status(409).json({message:"Mail Exists!"});
@@ -21,18 +22,22 @@ router.post('/register',jsonParser,(req,res)=>{
          crypter.hash(req.body.password,10,(err,hash)=>{
              if(err){
                  return res.status(409).json({
-                     error:err
+                     error:err,
+                     message:"Hello",
+                     data:req.body.email
                  });
              }else{
                  const User = new UserModel({
                     _id:mongoose.Types.ObjectId(),
                     name:req.body.name,
                     email:req.body.email,
+                    phone:req.body.phone,
                     password:hash
 
                  });
-                User.save().then(
-                    res.json({message:"User Created"})
+                User.save().then(()=>{
+                   
+                    res.json({message:"User Created"})}
                 ).catch(err=>{
                     res.status(500).json({error:err});
                 })

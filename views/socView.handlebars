@@ -201,10 +201,10 @@
     <!-- -------------------------------Society Gallery Section-------------------------------- -->
     <section id="societyGallerySection" class="clearFix">
         <div class="societyGallery clearFix">
-            <div class="societySlider fade"><img src="socities/{{name}}/gallery/Gallery1.jpg"></div> 
-            <div class="societySlider fade"><img src="socities/{{name}}/gallery/Gallery2.jpg"></div> 
-            <div class="societySlider fade"><img src="socities/{{name}}/gallery/Gallery3.jpg"></div> 
-            
+           {{#each data.galleryImgs}}
+            <div class="societySlider fade"><img src="socities/{{this}}"></div> 
+     
+             {{/each}}
             <a class="socPrev" onclick="plusSociety(-1)">&#10094;</a>
             <a class="socNext" onclick="plusSociety(1)">&#10095;</a>
         </div>
