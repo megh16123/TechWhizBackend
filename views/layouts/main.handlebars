@@ -7,7 +7,8 @@
     <!--CSS File Links -->
     <link rel="stylesheet" href="mainDesign.css">
     <link rel="stylesheet" href="infoDesign.css">
-    <title>Hyperion-The Cultural Society</title>
+    <link rel="stylesheet" href="otherDesign.css">
+    <title>{{title}}</title>
 </head>
 <body>
  
@@ -104,6 +105,8 @@
             <span><a href="/notices">View All</a></span>
         </div>
     </section>
+    {{{body}}}
+     {{#if middleSec}}
       <!-- --------------------------Information Section------------------------------------------- -->
   <section id="infoSection" class="clearFix">
         <!-- Side Link Section -->
@@ -380,6 +383,9 @@
             </a>
         </div>
     </section>
+  {{/if}}
+   {{#if showGallery}}
+  <!-- --------------------------Gallery Section--------------------------------------------- -->
     <section id="galleryIntro" class="clearFix">
         <div class="heading">
             <h3>Gallery</h3>
@@ -437,6 +443,7 @@
             <a href="/gallery">View All</a>
         </div>
     </section>
+      {{/if}}
   <!-- -----------------------------------------Footer Section------------------------------------- -->
   <footer id="footer" class="clearFix">
       <div class="leftFooter">

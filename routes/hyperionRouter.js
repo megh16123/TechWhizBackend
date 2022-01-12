@@ -1,50 +1,26 @@
-const express = require('express');
-const {google} = require('googleapis')
-const router = express.Router();
+const express  =   require('express');
+const router   =   express.Router();
+const {notices,achievements} = require('../assets/dataGetter')
 
-const spid = "1Jzcd64EGmuMnnqtdheNIizTqXG0PqZJ1G3ojI6rwBfw";
-const auth = new google.auth.GoogleAuth({
-    keyFile:"creds.json",
-    scopes:"https://www.googleapis.com/auth/spreadsheets"
-});
-router.get('/',async(req,res)=>{
-    const client = await auth.getClient();
-    const googleSheets = google.sheets({
-        version:"v4",
-        auth:client
-    });
-    const rows = await googleSheets.spreadsheets.values.get({
-        auth,
-        spreadsheetId:spid,
-        range:"Sheet1!B:C"
-    })
-    const Achrows = await googleSheets.spreadsheets.values.get({
-        auth,
-        spreadsheetId:spid,
-        range:"Sheet2!B:C"
-    })
-    const notices = [];
-    const achievements = [];
-    const data =rows.data.values; 
-    const acdata = Achrows.data.values;
-    for(let i =1;i<data.length;i++){
-       let notice = {
-           link:data[i][0],
-           body:data[i][1]
-       }
-       notices.push(notice)
-    }
-    for(let i =1;i<acdata.length;i++){
-       let achi = {
-        socname:acdata[i][0],
-        acbody:acdata[i][1]
-       }
-       achievements.push(achi)
-    }
-    res.render('landing',{notice:notices.reverse(),achievements:achievements.reverse()})
+
+
+router.get('/',(req,res)=>{
+
+    res.render('landing',{
+        notice:notices,
+        achievements:achievements,
+        middleSec:true,
+        showGallery:true,
+        title:"Hyperion-The Cultural Society"})
 });
 router.get('/contact',(req,res)=>{
-    res.render('contactus',{layout:"onlyNav",point:"Contact Us"});
+    res.render('contactus',{
+        title:"Contact Us",
+        notice:notices,
+        achievements:achievements,
+        middleSec:false,
+        showGallery:true,
+    });
 })
 router.get('/achievements',(req,res)=>{
     res.render('achievements',{layout:"onlyNav",point:"Achievements"});
