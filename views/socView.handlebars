@@ -59,7 +59,7 @@
             <!-- Society Heading and Log -->
             <div id="Introduction"class="headingLogo clearFix">
                 <div class="logo1">
-                    <img src="logos/RapbeatsLogo.jpg">
+                    <img src="{{data.logoLink}}">
                 </div>
                 <div class="infoHeading">
                     <h2>{{name}}</h2>
@@ -271,11 +271,11 @@
             </a>
         </div>
     </section>
-    {{!-- <script>
+    <script>
         const mento = document.querySelectorAll('img');
         mento.forEach(val=>{
             if(val.getAttribute("src") =="."){
                 val.style.display = "none";
             }
         })
-    </script> --}}
+    </script>
