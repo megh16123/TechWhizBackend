@@ -1,15 +1,12 @@
 [{
         "slug": "chanakya",
         "subHead": "The Intellectual Society",
-        "pBold": "",
-        
+        "pBold": "",        
         "paragraphs": [{"bold":"Chanakya","normal":" The Intellectual Society is the place where brains and words meet to create wonders. Chanakya brings the brains of PGDAV College and makes them into responsible individuals. It comprises four sub societies that come together to build home for young budding creatives"}, {"bold":"Qaafiya", "normal":"Qaafiya, The Creative Writing And Poetry Society Of PGDAV College is the land of slam poets and storytellers. Qaafiya refines young creatives' individuality and helps them create responsible art."}, {"bold":"Spectrum","normal": "Spectrum, The Media And Anchoring Society of PGDAV College belongs to the speakers who are not afraid to lead. Spectrum lends the mic to creatives with a bold voice, enthused with spirits to lead the college events."}, {"bold":"Buzzer", "normal":"Buzzer, The Quizzing Society Of PGDAV College is the answer to the curious. Knowledge and experience are their two bragging points. Buzzer brings the world into their discussions and brings along the true meaning of life: Why, What, Who, Whom, Which and Where."}, {"bold":"Grey Matter", "normal":"Grey Matter, The Debating Society Of PGDAV College is the argument to the debate. Grey Matter holds all the newspapers and arguments as their swords ready to battle all your interjections to nothingness. Grey Matter is the key to bring you back to the League Of Words."}],
         "links": [{ "username": "/chanakya.pgdav", "link": "https://www.instagram.com/chanakya.pgdav/", "image": "logos/InstagramLogo.png" }, { "username": "/pgdavchanakya", "link": "https://www.facebook.com/pgdavchanakya/", "image": "logos/FacebookLogo.png" }],
         "galleryImgs": ["chanakya/gallery/Gallery1.jpg", "chanakya/gallery/Gallery2.jpg", "chanakya/gallery/Gallery3.jpg", "chanakya/gallery/Gallery4.jpg", "chanakya`/gallery/Gallery5.jpg", "chanakya/gallery/Gallery6.jpg", "chanakya/gallery/Gallery7.jpg"],
         "president": "Preeti Deepa Das",
         "presidentPath": "/socities/chanakya/coreteam/President.jpg",
-        "vp": "Drishti Verma ",
-        "vpPath": "socities/chanakya/coreteam/Vice_President.jpg",
         "coordinator1": "Anubhav Saxena",
         "coordinator1Path": "socities/chanakya/coreteam/coord2.jpg",
         "coordinator2": "Mitushi Middha",
