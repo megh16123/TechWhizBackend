@@ -251,8 +251,8 @@
     text-align: center;
 }
 .president > img, .vpresident > img{
-    width: 20%;
-    height: 20%;
+    width: 500px;
+    /* height: 150px; */
     object-fit: contain;
     border-radius: 50%;
     margin: 0.2rem 0;
@@ -269,8 +269,8 @@
     float: right;
 }
 .secretary > img, .jsecretary > img{
-    width: 50%;
-    height: 50%;
+    width: 150px;
+    height: 200px;
     object-fit: contain;
     border-radius: 50%;
     margin: 0.2rem 0;

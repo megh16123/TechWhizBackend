@@ -77,8 +77,11 @@
                 </p>
                     
                        {{#each data.paragraphs}}
+                       <p style="font-weight: 900;">
+                       {{this.bold}}
+                       </p>
                    <p>
-                       {{this}}
+                       {{this.normal}}
                    </p>
                    {{/each}}
                   
@@ -133,6 +136,7 @@
                         <h3 class="name">{{data.mentor1}}</h3>
                     
                 </div>
+            
                 <div class="jsecretary">
                         <img src="{{data.mentor2Path}}">
                         <h3 class="name">{{data.mentor2}}</h3>
@@ -165,12 +169,12 @@
                 <div class="achievementsSection clearFix">
                     <h3>Achievements</h3>
                     <div class="achievementGallery">
-                        <div class="aSlide"><img src="socities/hyperion/achievement/Achievements10.jpg"></div>
-                        <div class="aSlide"><img src="socities/hyperion/achievement/Achievement8.jpg"></div>
-                        <div class="aSlide"><img src="socities/hyperion/achievement/Achievements2.jpg"></div>
-                        <div class="aSlide"><img src="socities/hyperion/achievement/Achievements5.jpg"></div>
-                        <div class="aSlide"><img src="socities/hyperion/achievement/Achievement1.PNG"></div>
-                        <div class="aSlide"><img src="socities/hyperion/achievement/Achievements6.jpg"></div>
+                        <div class="aSlide"><img src="./socities/hyperion/achievement/Achievements10.jpg"></div>
+                        <div class="aSlide"><img src="./socities/hyperion/achievement/Achievement8.jpg"></div>
+                        <div class="aSlide"><img src="./socities/hyperion/achievement/Achievements2.jpg"></div>
+                        <div class="aSlide"><img src="./socities/hyperion/achievement/Achievements5.jpg"></div>
+                        <div class="aSlide"><img src="./socities/hyperion/achievement/Achievement1.PNG"></div>
+                        <div class="aSlide"><img src="./socities/hyperion/achievement/Achievements6.jpg"></div>
                            
                         <a class="aPrev" onclick="plusAchieve(-1)">&#10094;</a>
                         <a class="aNext" onclick="plusAchieve(1)">&#10095;</a>    
@@ -267,3 +271,11 @@
             </a>
         </div>
     </section>
+    {{!-- <script>
+        const mento = document.querySelectorAll('img');
+        mento.forEach(val=>{
+            if(val.getAttribute("src") =="."){
+                val.style.display = "none";
+            }
+        })
+    </script> --}}
