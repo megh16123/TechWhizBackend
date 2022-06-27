@@ -15,7 +15,7 @@ app.set('view engine', 'handlebars');
 // Router Importing
 const apiRouter = require('./routes/userlogin');
 const Hyperion = require('./routes/hyperionRouter');
-// const hostname =  '192.168.1.91'
+
 app.use((req,res,next)=>{
     res.header("Access-Control-Allow-Origin","*");
     res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE,OPTIONS");
