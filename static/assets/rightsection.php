@@ -3,7 +3,7 @@
                 <div class="principalSection clearFix">
                     <h3>Principal's Message</h3>
                     <div class="principalImage">
-                        <img src="hyperion/principal_message/principal.jpg">
+                        <img src="Hyperion/principal.jpg">
                     </div>
                     <div class="principalMessage">
                         <p>

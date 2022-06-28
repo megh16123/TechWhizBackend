@@ -5,7 +5,7 @@
             <div class="tabContainers">
                 <div class="tab" id="Hyperion">
                     <span>Cultural<br>Society</span>
-                    <a href="/hyperion#leftSection">Hyperion</a>
+                    <a href="/">Hyperion</a>
                 </div>
                 <div class="tab" id="Chanakya">
                     <span>Intellectual<br>Society</span>
@@ -58,9 +58,13 @@
         <section id="leftSection" class="clearFix">
             <!-- Society Heading and Log -->
             <div id="Introduction"class="headingLogo clearFix">
+                
                 <div class="logo1">
+                    {{#if data.logoLink}}
                     <img src="{{data.logoLink}}">
+                    {{/if}}
                 </div>
+                
                 <div class="infoHeading">
                     <h2>{{name}}</h2>
                     <h3>{{data.subHead}}</h3>
@@ -108,40 +112,70 @@
                 <h3>Core Team</h3>
             </div>
             <div class="coreTeam clearFix">
+                {{#if data.president}}
                 <div class="president">
                     <img src="{{data.presidentPath}}">
                     <h3 class="name">{{data.president}}</h3>
                     <h4 class="post">President</h4>
                 </div>
+                {{/if}}
+                {{#if data.vp}}
                 <div class="secretary">
                         <img src="{{data.vpPath}}">
                         <h3 class="name">{{data.vp}}</h3>
                         <h4 class="post">Vice-President</h4>
                 </div>
-                <div class="jsecretary">
+                {{/if}}
+                {{#if data.coordinator1}}
+                 <div class="secretary">
                         <img src="{{data.coordinator1Path}}">
                         <h3 class="name">{{data.coordinator1}}</h3>
                         <h4 class="post">Coordinator</h4>
+                    </div>
+                {{/if}}
+                {{#if data.coordinator2}}
+                    <div class="secretary">
+                        <img src="{{data.coordinator2Path}}">
+                        <h3 class="name">{{data.coordinator2}}</h3>
+                        <h4 class="post">Coordinator</h4>
+                    </div>
+                {{/if}}
+                {{#if data.coordinator3}}
+                <div class="jsecretary">
+                        <img src="{{data.coordinator3Path}}">
+                        <h3 class="name">{{data.coordinator3}}</h3>
+                        <h4 class="post">Coordinator</h4>
                 </div>
+                {{/if}}
+                {{#if data.coordinator4}}
+                 <div class="president">
+                    <img src="{{data.coordinator4Path}}">
+                        <h3 class="name">{{data.coordinator4}}</h3>
+                        <h4 class="post">Coordinator</h4>
+                </div>
+                {{/if}}
+
             </div>
             <!-- -----------------Mentor Section------------ -->
             <div id="Mentors" class="coreHeading clearFix">
                 <h3>Mentors</h3>
             </div>
             <div class="coreTeam clearFix">
-               
+               {{#if data.mentor1}}
                 <div class="secretary">
                         <img src="{{data.mentor1Path}}">
                       
                         <h3 class="name">{{data.mentor1}}</h3>
                     
                 </div>
-            
+                {{/if}}
+            {{#if data.mentor2}}
                 <div class="jsecretary">
                         <img src="{{data.mentor2Path}}">
                         <h3 class="name">{{data.mentor2}}</h3>
                        <!-- <h4 class="post">Joint Secretary</h4>-->
                 </div>
+                {{/if}}
             </div>
         </section>
         <section id="rightSection" class="clearFix">
@@ -149,7 +183,7 @@
                 <div class="principalSection clearFix">
                     <h3>Principal's Message</h3>
                     <div class="principalImage">
-                        <img src="socities/hyperion/principal_message/principal.jpg">
+                        <img src="socities/Hyperion/principal.jpg">
                     </div>
                     <div class="principalMessage">
                         <p>
