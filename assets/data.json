@@ -79,7 +79,15 @@
         "slug": "impressions",
         "subHead": "The Fine Arts Society",
         "pBold": "The artist is not a different kind of person, but every person is a different kind of artist.",
-        "paragraphs": ["Art remains the flagship of Hyperion that embodies the spirit of our college.", "IMPRESSIONS – the fine arts society won the title of the Best society of PGDAV college of 2019 and is focused on helping students to develop their artistic and creative skills and gives them a platform to embrace their love for art without any objections or boundaries.", "Impressions displayed its vibrant artistry throughout the academic year in various hues. They gave a tribute to Dr. Sarvapalli Radhakrishnan on the auspicious occasion of teachers' day through a live art show. They displayed their rich artistic expressions and won prizes in IIT Bombay and other National level competitions. They also added much-needed charisma to NIRVANA 2020 with their wonderful exhibits.Even during pandemic crisis, society tried to put its best foot forward by organizing various online events and participated in many national level competitions."],
+        "paragraphs": [{
+                "normal": "Art remains the flagship of Hyperion that embodies the spirit of our college."
+            },
+            {
+                "bold": "IMPRESSIONS- ",
+                "normal": "the fine arts society won the title of the Best society of PGDAV college of 2019 and is focused on helping students to develop their artistic and creative skills and gives them a platform to embrace their love for art without any objections or boundaries."
+            },
+            { "normal": " Impressions displayed its vibrant artistry throughout the academic year in various hues.They gave a tribute to Dr.Sarvapalli Radhakrishnan on the auspicious occasion of teachers ' day through a live art show. They displayed their rich artistic expressions and won prizes in IIT Bombay and other National level competitions. They also added much-needed charisma to NIRVANA 2020 with their wonderful exhibits.Even during pandemic crisis, society tried to put its best foot forward by organizing various online events and participated in many national level competitions." }
+        ],
         "links": [{ "username": "/impressions.pgdav", "link": "https://www.instagram.com/impressions.pgdav/", "image": "logos/InstagramLogo.png" }, { "username": "/impressionstfas", "link": "https://www.facebook.com/impressionstfas/", "image": "logos/FacebookLogo.png" }],
         "galleryImgs": ["impressions/gallery/Gallery1.jpg", "impressions/gallery/Gallery2.jpg", "impressions/gallery/Gallery3.jpg", "impressions/gallery/Gallery4.jpg", "impressions/gallery/Gallery5.jpg", "impressions/gallery/Gallery6.png", "impressions/gallery/Gallery7.png", "impressions/gallery/Gallery8.mp4", "impressions/gallery/Gallery9.mp4"],
         "logoLink": "logos/ImpressionsLogo.jpeg",
@@ -105,7 +113,16 @@
         "slug": "iris",
         "subHead": "The Film and Photography Society",
         "pBold": "We see something, We capture it. We think more about it, We make a film on it.",
-        "paragraphs": ["We see something, We capture it. We think more about it, We make a film on it. IRIS - FILM AND PHOTOGRAPHY SOCIETY OF PGDAV is one of the creative societies, where we work with students having relevant skills and interest in photography, film making, video editing, script writing and graphic designing.The society mainly covers and participates in various events, goes on photo walks, makes films and does movie reviews.We’ ve won many positions in photography and video making in colleges such as World Photography Club, UNIECE, IIT and other colleges of Delhi University and other private colleges."],
+        "paragraphs": [{
+                "normal": "We see something, We capture it. We think more about it, We make a film on it."
+            },
+            {
+                "bold": " IRIS - ",
+                "normal": "FILM AND PHOTOGRAPHY SOCIETY OF PGDAV is one of the creative societies, where we work with students having relevant skills and interest in photography, film making, video editing, script writing and graphic designing.The society mainly covers and participates in various events, goes on photo walks, makes films and does movie reviews.We’ ve won many positions in photography and video making in colleges such as World Photography Club, UNIECE, IIT and other colleges of Delhi University and other private colleges."
+            },
+            { "normal": " Impressions displayed its vibrant artistry throughout the academic year in various hues.They gave a tribute to Dr.Sarvapalli Radhakrishnan on the auspicious occasion of teachers ' day through a live art show. They displayed their rich artistic expressions and won prizes in IIT Bombay and other National level competitions. They also added much-needed charisma to NIRVANA 2020 with their wonderful exhibits.Even during pandemic crisis, society tried to put its best foot forward by organizing various online events and participated in many national level competitions." }
+
+        ],
         "links": [{ "username": "/iris_pgdav", "link": "https://www.instagram.com/iris_pgdav/", "image": "logos/InstagramLogo.png" }, { "username": "/iris_pgdav", "link": "https://www.facebook.com/iris_pgdav/", "image": "logos/FacebookLogo.png" }],
         "galleryImgs": ["iris/gallery/Gallery1.jpg", "iris/gallery/Gallery2.jpg", "iris/gallery/Gallery3.jpg", "iris/gallery/Gallery4.jpg", "iris/gallery/Gallery5.jpg", "iris /gallery / Gallery6.webp ", "iris/gallery/Gallery7.webp"],
         "logoLink": "logos/IrisLogo.jpg",
@@ -131,7 +148,11 @@
         "slug": "navrang",
         "subHead": "The Theatre Society",
         "pBold": "",
-        "paragraphs": ["A remarkable and breathtaking theatrical union that boldly unites the professional stage where dreamers together approach the universe of theatre...NAVRANG resembling the 'nine emotions' is a place to explore the unexplored within ourselves. NAVRANG has time and again proved it's mettle and made it's space amongst the best out there.Several of our productions have been a talking point in the DU Circuit and the Sahitya Kala Parishad likewise."],
+        "paragraphs": [{
+                "normal": "A remarkable and breathtaking theatrical union that boldly unites the professional stage where dreamers together approach the universe of theatre...NAVRANG resembling the 'nine emotions' is a place to explore the unexplored within ourselves. NAVRANG has time and again proved it's mettle and made it's space amongst the best out there.Several of our productions have been a talking point in the DU Circuit and the Sahitya Kala Parishad likewise."
+            }
+
+        ],
         "links": [{ "username": "/navrang.abhivyakti", "link": "https://www.instagram.com/navrang.abhivyakti/", "image": "logos/InstagramLogo.png" }, { "username": "/NAVRANGTHEATRESOC", "link": "https://www.facebook.com//NAVRANGTHEATRESOC/", "image": "logos/FacebookLogo.png" }],
         "galleryImgs": ["navrang/gallery/Gallery1.jpg", "navrang/gallery/Gallery2.jpg", "navrang/gallery/Gallery3.jpg"],
         "logoLink": "logos/NavrangLogo.png",
@@ -157,7 +178,17 @@
         "slug": "raaga",
         "subHead": "The Indian Music Society",
         "pBold": "",
-        "paragraphs": ["Music is an art form and cultural activity which inculcates a comprehensive understanding of emotions. 'RAAGA' - The Indian Music Society of PGDAV college is one of the well-achieved societies of the college. The society assists the students to develop exorbitant knowledge and exposure in the sphere of music.", "The society mainly work in the field of Hindustani Classical Music and take part in various competitions. It has also performed in front of the President of India - Shri Ram Nath Kovind."],
+        "paragraphs": [{
+                "normal": "Music is an art form and cultural activity which inculcates a comprehensive understanding of emotions.."
+            },
+            {
+                "bold": "RAAGA - ",
+                "normal": "The Indian Music Society of PGDAV college is one of the well-achieved societies of the college. The society assists the students to develop exorbitant knowledge and exposure in the sphere of music."
+
+            },
+            { "normal": " The society mainly work in the field of Hindustani Classical Music and take part in various competitions. It has also performed in front of the President of India - Shri Ram Nath Kovind." }
+
+        ],
         "links": [{ "username": "/raaga.ims", "link": "https://www.instagram.com/raaga.ims/", "image": "logos/InstagramLogo.png" }, { "username": "/Raaga.PGDAV", "link": "https://www.facebook.com/Raaga.PGDAV/", "image": "logos/FacebookLogo.png" }],
         "galleryImgs": ["raaga/gallery/Gallery1.jpg", "raaga/gallery/Gallery2.jpg", "raaga/gallery/Gallery3.jpg"],
         "logoLink": "logos/RaagaLogo.jpg",
@@ -183,9 +214,12 @@
         "slug": "rapbeats",
         "subHead": "The Hip Hop Music Society",
         "pBold": "Rapbeats was the first ever Hip Hop Music society formed in Delhi University.",
-        "paragraphs": ["This is the society which follows hip hop from the soul.Rapbeats represent three vital elements of Hip hop. Rapbeats-The Hip hop Music Society of PGDAV College is a group of talented beatboxers, rappers and music producers",
-            "The artists of Rapbeats performs in various competition across India and had won competitions at the Biggest Asia Cultural Fest Mood Indigo organized by IIT Bombay 4 times across two mazor Competitions ,i.e. Mood Indigo Got Talent and MI-NEM ( The Rap Battle) apart form winning rap battles,Dj Wars and Talent Hunts across 25+ colleges across Delhi.",
-            "Music Producers from our society have their Music launched from Speed Records and also produced music for the aftermovies of various college festivals"
+        "paragraphs": [{
+                "normal": "This is the society which follows hip hop from the soul.Rapbeats represent three vital elements of Hip hop.Rapbeats - The Hip hop Music Society of PGDAV College is a group of talented beatboxers,rappers and music producers "
+            }, {
+                "normal ": "The artists of Rapbeats performs in various competition across India and had won competitions at the Biggest Asia Cultural Fest Mood Indigo organized by IIT Bombay 4 times across two mazor Competitions,i.e.Mood Indigo Got Talent and MI - NEM(The Rap Battle) apart form winning rap battles,Dj Wars and Talent Hunts across 25 + colleges across Delhi."
+            },
+            { "normal": "Music Producers from our society have their Music launched from Speed Records and also produced music for the aftermovies of various college festivals" }
         ],
         "links": [{ "username": "/rapbeats7", "link": "https://www.instagram.com/rapbeats7/", "image": "logos/InstagramLogo.png" }, { "username": "/rapbeatspgdav", "link": "https://www.facebook.com/rapbeatspgdav/", "image": "logos/FacebookLogo.png" }],
         "galleryImgs": ["rapbeats/gallery/Gallery1.jpg", "rapbeats/gallery/Gallery2.jpg", "rapbeats/gallery/Gallery3.jpg"],
@@ -208,13 +242,35 @@
         "mentor2": "Ms. RVS Chuimila",
         "mentor2Path": "socities/rapbeats/mentor/mentor2.jpg"
     },
-
     {
         "slug": "rudra",
         "subHead": "The Street Play Society",
         "pBold": "",
-        "paragraphs": ["A promising place for every Thespian, Rudra-The Street Play Society of PGDAV College has a legacy of its own.",
-            "Rudra was founded in 2005 and continues to work in full swing till date. It has produced several plays on social issues like media literacy, prostitution. Rudra has performed and won at platforms like NSD, MoodI- The Cultural Fest of IIT Bombay and Manthan- The international street play festival by CBS.", "Our notable Alumni are:", "Vikram Singh: Founder of Dogtail films production", "Shubham Yadav : Co-founder at Dogtail films", "Aarushi Rawat: Bollywood actress", "Hemank Soni: Acclaimed theatre actor", "Nabin Adhikari: Percussionist", "Siddharth Verma: Script writer and theatre artist in Mumbai", "Amit Bhardwaj: Works at Marvel studios", "Suryansh Saini: Assistant director at Savdhaan India and television actor", "Satyam Shukla: Casting director and theatre actor", "It provides its members an environment to learn, explore, experience and engage. It aims to entertain and aware people about the social issues as an effort to provide a perspective and bring a change."
+        "paragraphs": [{
+                "normal ": "A promising place for every Thespian"
+            }, {
+                "bold": "Rudra-The Street Play Society of PGDAV College has a legacy of its own",
+                "normal": "Rudra was founded in 2005 and continues to work in full swing till date.It has produced several plays on social issues like media literacy,prostitution.Rudra has performed and won at platforms like NSD,MoodI - The Cultural Fest of IIT Bombay and Manthan - The international street play festival by CBS "
+            }, {
+                "normal ": "Our notable Alumni are: "
+            }, {
+                "normal": "Vikram Singh: Founder of Dogtail films production"
+
+            }, { "normal": "Aarushi Rawat: Bollywood actress" },
+            {
+                "normal": "Hemank Soni: Acclaimed theatre actor,"
+            },
+            {
+                "normal": "Nabin Adhikari: Percussionist"
+            }, {
+                "normal": "Siddharth Verma: Script writer and theatre artist in Mumbai"
+            }, {
+                "normal": "Amit Bhardwaj: Works at Marvel studios"
+            }, {
+                "normal": "Suryansh Saini: Assistant director at Savdhaan India and television actor"
+            }, {
+                "normal": "Satyam Shukla: Casting director and theatre actor"
+            }, { "normal": "It provides its members an environment to learn, explore, experience and engage. It aims to entertain and aware people about the social issues as an effort to provide a perspective and bring a change." }
         ],
         "links": [{ "username": "/rudra_dramsoc", "link": "https://www.instagram.com/rudra_dramsoc/", "image": "logos/InstagramLogo.png" }, { "username": "/rudradrama", "link": "https://www.facebook.com/rudradrama/", "image": "logos/FacebookLogo.png" }],
         "galleryImgs": ["rudra/gallery/Gallery1.jpg", "rudra/gallery/Gallery2.jpg", "rudra/gallery/Gallery3.jpg"],
@@ -241,25 +297,36 @@
         "slug": "techwhiz",
         "subHead": "The I.T. Society",
         "pBold": "",
-        "paragraphs": ["TechWhiz -The I.T. Society kick started its journey in the year of 2012. It aims to provide the students of P.G.D.A.V. college irrespective of their courses a platform where they can showcase their technical knowledge and skill as well as gain new skills along with the experience of working in a team.", "Techwhiz also work as the technical team for Hyperion – The Cultural Committee and its sub societies and assist them in their technical dilemma. As we work alongside different societies our members get exposure to other fields as well.", "TechWhiz main fields of interest includes Coding, Technical Quizzing, Web Development, Graphic Designing and Gaming", "TechWhiz as a team is known for its activeness in participating and organizing events. We have been well known in DU circuit and has won many competitions. In the session of 2019-20, TechWhiz won more than 30 competitions all across Delhi-NCR.", "Techwhiz in the past has successfully organized many one of their kind technical events. Every year in the annual fest of P.G.D.A.V. College Techwhiz organize many events. Last year, we organized events like Dazzle Coding, Code-O-Shuffle, Tekken, TechQuiz and WebDevelopment."],
+        "paragraphs": [{
+            "normal": "TechWhiz - The I.T.Society kick started its journey in the year of 2012. It aims to provide the students of P.G.D.A.V.college irrespective of their courses a platform where they can showcase their technical knowledge and skill as well as gain new skills along with the experience of working in a team."
+        }, {
+            "normal": "It also works as the technical team for Hyperion– The Cultural Committee and its sub societies and assist them in their technical dilemma.As we work alongside different societies our membersget exposure to other fields as well."
+        }, {
+            "normal": "Their main fields of interest includes Coding,Technical Quizzing,Web Development,Graphic Designing and Gaming "
+        }, {
+            "normal": "TechWhiz as a team is known for its activeness in participating and organizing events.We have been well known in DU circuit and has won many competitions.In the session of 2019 - 20,TechWhiz won more than 30 competitions all across Delhi - NCR."
+        }, {
+            "normal": "Techwhiz in the past has successfully organized many one of their kind technical events.Every year in the annual fest of P.G.D.A.V.College Techwhiz organize many events.Last year, we organized events like Dazzle Coding,Code-O-Shuffle,Tekken,TechQuiz and WebDevelopment."
+        }],
         "links": [{ "username": "/rapbeats7", "link": "https://www.instagram.com/rapbeats7/", "image": "logos/InstagramLogo.png" }, { "username": "/rapbeatspgdav", "link": "https://www.facebook.com/rapbeatspgdav/", "image": "logos/FacebookLogo.png" }],
-        "logoLink": "",
+        "logoLink": "logos/techWhizpng.png",
         "galleryImgs": ["rapbeats/gallery/Gallery1.jpg", "rapbeats/gallery/Gallery2.jpg", "rapbeats/gallery/Gallery3.jpg"],
         "president": "Mohit Kumar Jain",
-        "presidentPath": "/socities/rapbeats/coreteam/Sarthak Srivastava_President.jpg",
+        "presidentPath": "/socities/techwhiz/coreteam/president.jpg",
         "vp": "Anwesha Sanyal",
-        "vpPath": "socities/rapbeats/coreteam/Mayank Grover_Vice President.jpg",
+        "vpPath": "socities/techwhiz/coreteam/vp.jpg",
         "coordinator1": "Prachi Tiwari",
-        "coordinator1Path": "socities/rapbeats/coreteam/Anubhav_Coordinator.jpg",
+        "coordinator1Path": "socities/techwhiz/coreteam/coord4.jpeg",
         "coordinator2": "Hardik Bhanot",
-        "coordinator2Path": "",
+        "coordinator2Path": "socities/techwhiz/coreteam/coord1.jpg",
         "coordinator3": "Vaibhav Kumar",
-        "coordinator3Path": "",
+        "coordinator3Path": "socities/techwhiz/coreteam/coord3.jpg",
         "coordinator4": "Vishesh Khurana",
+        "coordinator4Path": "socities/techwhiz/coreteam/coord2.jpg",
         "coordinator5": "",
         "coordinator5Path": "",
         "mentor1": "Ms. Kirti Agarwal",
-        "mentor1Path": "",
+        "mentor1Path": "socities/techwhiz/mentor/mentor1.jpeg",
         "mentor2": "",
         "mentor2Path": ""
     }
