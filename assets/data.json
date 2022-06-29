@@ -154,7 +154,7 @@
 
         ],
         "links": [{ "username": "/navrang.abhivyakti", "link": "https://www.instagram.com/navrang.abhivyakti/", "image": "logos/InstagramLogo.png" }, { "username": "/NAVRANGTHEATRESOC", "link": "https://www.facebook.com//NAVRANGTHEATRESOC/", "image": "logos/FacebookLogo.png" }],
-        "galleryImgs": ["navrang/gallery/Gallery1.jpg", "navrang/gallery/Gallery2.jpg", "navrang/gallery/Gallery3.jpg"],
+        "galleryImgs": ["navrang/gallery/Gallery1.jpg", "navrang/gallery/Gallery2.jpg", "navrang/gallery/Gallery3.jpeg"],
         "logoLink": "logos/NavrangLogo.png",
         "president": "Pranjal Malpani",
         "presidentPath": "/socities/navrang/coreteam/President.webp",
@@ -320,7 +320,7 @@
         "coordinator2": "Hardik Bhanot",
         "coordinator2Path": "socities/techwhiz/coreteam/coord1.jpg",
         "coordinator3": "Vaibhav Kumar",
-        "coordinator3Path": "socities/techwhiz/coreteam/coord3.jpg",
+        "coordinator3Path": "socities/techwhiz/coreteam/coord3.png",
         "coordinator4": "Vishesh Khurana",
         "coordinator4Path": "socities/techwhiz/coreteam/coord2.jpg",
         "coordinator5": "",

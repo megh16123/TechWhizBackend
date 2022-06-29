@@ -250,12 +250,24 @@
     width: 100%;
     text-align: center;
 }
-.president > img, .vpresident > img{
-    /* width: 300px; */
+.president > img, .vpresident > img,.coord4>img,.coord3>img{
+    width: 200px;
     height: 200px;
     object-fit: contain;
     border-radius: 50%;
     margin: 0.2rem 0;
+}
+.coord4{
+    margin: 5% 0;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.coord3{
+    margin: 5% 0;
+    float: left;
+    width: 50%;
+    text-align: center;
 }
 .secretary, .jsecretary{
     display: block;
