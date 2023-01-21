@@ -15,7 +15,7 @@ app.set('view engine', 'handlebars');
 // Router Importing
 const apiRouter = require('./routes/userlogin');
 const Hyperion = require('./routes/hyperionRouter');
-
+const galleryROuter = require('./routes/galleryROuter'); 
 app.use((req,res,next)=>{
     res.header("Access-Control-Allow-Origin","*");
     res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE,OPTIONS");
@@ -25,6 +25,9 @@ app.use((req,res,next)=>{
 // Router Using
 app.use('/api',apiRouter);
 app.use('/',express.static(path.join(__dirname,'static')))
+app.use('/gallery',express.static(path.join(__dirname,'static')))
+app.use('/gallery/:galName',express.static(path.join(__dirname,'static')))
+app.use('/gallery',galleryROuter);
 app.use('/',Hyperion);
 app.use('/:socName',express.static(path.join(__dirname,'static')));
 

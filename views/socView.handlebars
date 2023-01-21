@@ -11,6 +11,10 @@
                     <span>Intellectual<br>Society</span>
                     <a href="/chanakya#leftSection">Chanakya</a>
                 </div>
+                <div class="tab" id="Techwhiz">
+                    <span>I.T.<br>Society</span>
+                    <a href="/techwhiz#leftSection">Techwhiz</a>
+                </div>
                 <div class="tab" id="Conundrum">
                     <span>Western Music<br>Society</span>
                     <a href="/conundrum#leftSection">Conundrum</a>
@@ -43,9 +47,9 @@
                     <span>Street Play<br>Society</span>
                 <a href="/rudra#leftSection">Rudra</a>
                 </div>
-                <div class="tab" id="Techwhiz">
-                    <span>I.T.<br>Society</span>
-                    <a href="/techwhiz#leftSection">Techwhiz</a>
+                <div class="tab" id="Kaira">
+                    <span>Fashion<br>Society</span>
+                    <a href="/kaira#leftSection">Kaira</a>
                 </div>
             </div>
         </section>
@@ -80,7 +84,7 @@
                     {{data.pBold}}
                 </p>
                     
-                       {{#each data.paragraphs}}
+                    {{#each data.paragraphs}}
                        <p style="font-weight: 900;">
                        {{this.bold}}
                        </p>
@@ -126,11 +130,26 @@
                         <h4 class="post">Vice-President</h4>
                 </div>
                 {{/if}}
+                {{#if data.secretary}}
+                <div class="coord3">
+                        <img src="{{data.secpath}}">
+                        <h3 class="name">{{data.secretary}}</h3>
+                        <h4 class="post">Secretary</h4>
+                </div>
+                {{/if}}
+                {{#if data.pr}}
+                <div class="coord4">
+                        <img src="{{data.prpath}}">
+                        <h3 class="name">{{data.pr}}</h3>
+                        <h4 class="post">PR Head</h4>
+                </div>
+                {{/if}}
                 {{#if data.coordinator1}}
                  <div class="coord3">
                         <img src="{{data.coordinator1Path}}">
                         <h3 class="name">{{data.coordinator1}}</h3>
                         <h4 class="post">Coordinator</h4>
+                        <h4 class="post">{{data.degn_coord1}}</h4>
                     </div>
                 {{/if}}
                 {{#if data.coordinator2}}
@@ -138,6 +157,7 @@
                         <img src="{{data.coordinator2Path}}">
                         <h3 class="name">{{data.coordinator2}}</h3>
                         <h4 class="post">Coordinator</h4>
+                        <h4 class="post">{{data.degn_coord2}}</h4>
                     </div>
                 {{/if}}
                 {{#if data.coordinator3}}
@@ -145,6 +165,7 @@
                         <img src="{{data.coordinator3Path}}">
                         <h3 class="name">{{data.coordinator3}}</h3>
                         <h4 class="post">Coordinator</h4>
+                        <h4 class="post">{{data.degn_coord3}}</h4>
                 </div>
                 {{/if}}
                 {{#if data.coordinator4}}
@@ -152,6 +173,23 @@
                     <img src="{{data.coordinator4Path}}">
                         <h3 class="name">{{data.coordinator4}}</h3>
                         <h4 class="post">Coordinator</h4>
+                        <h4 class="post">{{data.degn_coord4}}</h4> 
+                </div>
+                {{/if}}
+                {{#if data.coordinator5}}
+                 <div class="coord3">
+                    <img src="{{data.coordinator5Path}}">
+                        <h3 class="name">{{data.coordinator5}}</h3>
+                        <h4 class="post">Coordinator</h4>
+                        <h4 class="post">{{data.degn_coord5}}</h4> 
+                </div>
+                {{/if}}
+                {{#if data.media_coordinator}}
+                 <div class="coord3">
+                    <img src="{{data.media_coordinatorPath}}">
+                        <h3 class="name">{{data.media_coordinator}}</h3>
+                        <h4 class="post">Coordinator</h4>
+                        <h4 class="post">{{data.degn_media}}</h4> 
                 </div>
                 {{/if}}
 
@@ -162,7 +200,7 @@
             </div>
             <div class="coreTeam clearFix">
                {{#if data.mentor1}}
-                <div class="secretary">
+                <div class="coord3">
                         <img src="{{data.mentor1Path}}">
                       
                         <h3 class="name">{{data.mentor1}}</h3>
@@ -170,9 +208,16 @@
                 </div>
                 {{/if}}
             {{#if data.mentor2}}
-                <div class="jsecretary">
+                <div class="coord4">
                         <img src="{{data.mentor2Path}}">
                         <h3 class="name">{{data.mentor2}}</h3>
+                       <!-- <h4 class="post">Joint Secretary</h4>-->
+                </div>
+                {{/if}}
+                {{#if data.mentor3}}
+                <div class="coord3">
+                        <img src="{{data.mentor3Path}}">
+                        <h3 class="name">{{data.mentor3}}</h3>
                        <!-- <h4 class="post">Joint Secretary</h4>-->
                 </div>
                 {{/if}}
@@ -258,6 +303,11 @@
                 <h3>Chanakya</h3>
                 <h4 class="overlay">The </br>Intellectual</br> Society</h4>
             </a>
+            <a href="/techwhiz#leftSection" class="societyColumn" id="techwhiz">
+                <div class="societyLogo"><img src="logos/TechwhizLogo.jpeg"></div>
+                <h3>Techwhiz</h3>
+                <h4 class="overlay">The</br> I.T. </br>Society</h4>
+            </a>
             <a href="/conundrum#leftSection" class="societyColumn" id="conundrum">
                 <div class="societyLogo"><img src="logos/ConundrumLogo.jpg"></div>  
                 <h3>Conundrum</h3>
@@ -298,10 +348,10 @@
                 <h3>Rudra</h3>
                 <h4 class="overlay">The </br>Street Play</br> Society</h4>
             </a>
-            <a href="/techwhiz#leftSection" class="societyColumn" id="techwhiz">
-                <div class="societyLogo"><img src="logos/TechwhizLogo.jpeg"></div>
-                <h3>Techwhiz</h3>
-                <h4 class="overlay">The</br> I.T. </br>Society</h4>
+            <a href="/kaira/#leftSection" class="societyColumn" id="kaira">
+                <div class="societyLogo"><img src="logos/kairapng.png"></div>
+                <h3>Kaira</h3>
+                <h4 class="overlay">The</br> Fashion </br>Society</h4>
             </a>
         </div>
     </section>

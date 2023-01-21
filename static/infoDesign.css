@@ -56,6 +56,9 @@
 #Techwhiz a{
     background-color: #3a3aff;
 }
+#Kaira a{
+    background-color: #df2248;
+}
 @media screen and (max-width: 850px){
     #linksSection{
         display: none;
@@ -132,6 +135,10 @@
 .introParagraph > p{
     font-size: 1.8vw;
     margin: 0.75vw 0;
+}
+.introParagraph > p > ol > ul{
+    margin-left: 2%;
+    list-style: none;
 }
 @media screen and (max-width: 850px){
     .introParagraph > p{
@@ -269,45 +276,8 @@
     width: 50%;
     text-align: center;
 }
-.secretary, .jsecretary{
-    display: block;
-    width: 40%;
-    text-align: center;
-    float: left;
-    margin-top: -3%;
-}
 
-.jsecretary{
-    float: right;
-}
-.secretary > img, .jsecretary > img{
-    width: 150px;
-    height: 200px;
-    object-fit: contain;
-    border-radius: 50%;
-    margin: 0.2rem 0;
-}
-.treasurer , .coordinator{
-    margin: 0%;
-    width: 30%;
-    text-align: center;
-    float: left;
-}
-.treasurer > img, .coordinator > img{
-    width: 65%;
-    height: 65%;
-    object-fit: contain;
-    border-radius: 50%;
-    margin: 0.2rem 0;
-}
-.treasurer{
-    float: left;
-    margin-left: 16%;
-}
-.coordinator{
-    margin-left: 2.5%;
-}
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
     .treasurer > img, .coordinator > img{
         width: 75%;
         height: 75%;
@@ -320,7 +290,7 @@
         width: 25%;
         height: 25%;
     }
-}
+} */
 
 /* Right Section CSS */
 #rightSection{

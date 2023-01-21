@@ -3,7 +3,6 @@ const router   =   express.Router();
 const {notices,achievements} = require('../assets/dataGetter')
 const data = require('../assets/data.json');
 
-
 router.get('/',(req,res)=>{
 
     res.render('landing',{
@@ -25,9 +24,7 @@ router.get('/contact',(req,res)=>{
 router.get('/achievements',(req,res)=>{
     res.render('achievements',{layout:"onlyNav",point:"Achievements"});
 })
-router.get('/gallery',(req,res)=>{
-    res.render('gallery',{layout:"onlyNav",point:"gallery"});
-})
+
 router.get('/notices',(req,res)=>{
     res.render('notices',{layout:"onlyNav",point:"notices"});
 })

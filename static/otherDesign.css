@@ -1,100 +1,85 @@
 
 /* ----------------------------------------Heading type 1------------------------------------ */
 .gallHeading1 h2{
-    font-size: 3rem;
-    text-align: center;
-    color: #ffffff;
-    background-image: url(resources/back3.jpg);
-    padding: 0.5rem 0;
-}
-.breadCrumps{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 2.5rem;
+  font-size: 5rem;
+  text-align: center;
+  color: #ffffff;
+  background-color:rgb(255, 123, 0);
+  padding: 0.5rem 0;
+  font-weight: bold;
 }
 
-
-.breadCrumps{
-    background-color:  #eee;
-    padding: 0.5rem 1rem;
-}
-.breadCrumps ul{
-    list-style: none;
-    font-size: 0rem;
-}
-.breadCrumps ul li{
-    display: inline-block;
-}
-.breadCrumps ul li+li:before {
-    padding: 0.45rem;
-    color: black;
-    content: "/\00a0";
-}
-.breadCrumps ul li a{
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #0275d8;
-}
-.breadCrumps ul li a:hover{
-    text-decoration: underline;
-    color: #01447e;
-}
-.breadCrumps ul li a:active{
-    color: #000000;
+.gallery{
+transition: all .2s cubic-bezier(.34,1.12,.68,1.31);
+min-height: 100vh;
+background: #fff;
+padding-bottom: 100px;
 }
 
-.gallSection1{
-    margin: 0%;
-    
+.gallery .controls{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+padding: 20px 0;
+list-style: none;
 }
-.gallSection1 h3{
-    background-image: url(resources/back2.webp);
-    color: #ffffff;
-    margin-top: 0.25rem;
-    font-size: 2rem;
-    text-align: center;
-    padding: 0.5rem 0rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.gallery .controls .buttons{
+height: 40px;
+width: 140px;
+background-color: #fff;
+color:#666;
+font-size: 20px;
+line-height: 40px;
+cursor: pointer;
+margin: 20px;
+box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+text-align: center;
 }
-.imageRow {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+.gallery .controls .buttons:hover{
+  background: #000;
+  color: white;
+}
+
+.gallery .controls .buttons.active{
+background-color: coral;
+color: #fff;
+}
+
+.gallery .image-container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+/* flex: 25%;
+width: 25%; */
+}
+
+/* .gallery .image-container a{
+display: flex;
+flex: 25%;
+width: 25%;
+
+} */
+.gallery .image-container .image{
+height: 250px;
+width: 300px;
+overflow: hidden;
+border: 10px solid #666;
+box-shadow: 0 3px 5px rgba(0,0,0,.3);
+margin: 20px;
+}
+
+.gallery .image-container .image img{
+height: 100%;
+width: 100%;
+/* object-fit: cover; */
+}
+
+.gallery .image-container .image:hover img{
+transform: scale(1.4);
+}
 
 
   
@@ -291,6 +276,7 @@
 {
     background-color: #0060e6;
 }
+
 .accordion:after 
 {
     content: '\002B';

@@ -184,7 +184,7 @@ body{
     }
 }
 
-/* Aaghaz Banner */
+/* Aaghaz Banner
 #aaghazBanner{
     position: relative;
     margin: 0.5rem;
@@ -208,7 +208,7 @@ body{
     #aaghazBanner > img{
         width: 60vw;
     }
-}
+} */
 
 /* CSS for Banner and Notice Board */
 #Banner{
@@ -357,7 +357,9 @@ body{
 #techwhiz{
     background-color: #6e6eff;
 }
-
+#kaira{
+    background-color: #f02e55f4;
+}
 /* heading color*/
 #chanakya >h3{
     background-color: #12d87f;
@@ -388,6 +390,9 @@ body{
 }
 #techwhiz >h3{
     background-color: #3a3aff;
+}
+#kaira >h3{
+    background-color: #df2248;
 }
 
 .societySection{
